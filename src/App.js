@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MySportsFeed from './pages/MySportsFeed'
 
 class App extends Component {
   render() {
@@ -17,8 +18,8 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
           </a>
+          <MySportsFeed />
         </header>
       </div>
     );
